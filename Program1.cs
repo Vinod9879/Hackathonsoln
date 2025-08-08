@@ -83,7 +83,7 @@ namespace Hack
 
             do
             {
-                Console.WriteLine("Do you want to analyze word frequencies? (Y/N)");
+                Console.WriteLine("Do you want to run again  (Y/N)");
                 string choice = Console.ReadLine().ToUpper();
 
                 if (choice == "Y")
@@ -111,4 +111,5 @@ namespace Hack
             Console.WriteLine("Program ended.");
         }
     }
+
 }
